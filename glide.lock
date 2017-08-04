@@ -1,0 +1,125 @@
+hash: 486e3c4c1b5e9b63bf5f88f5ec25c5adeda87b00ca3667609b80325deb2a75b7
+updated: 2017-06-12T18:29:22.793924832+08:00
+imports:
+- name: github.com/fsnotify/fsnotify
+  version: fd9ec7deca8bf46ecd2a795baaacf2b3a9be1197
+- name: github.com/go-log/log
+  version: 37e2e1f19306361e1fc152a1839f1236149cb4e4
+  subpackages:
+  - log
+- name: github.com/golang/protobuf
+  version: fe0102d5d7abb6caa8b4a475581a6ff3e03f7403
+  repo: https://github.com/micro/protobuf.git
+  subpackages:
+  - proto
+- name: github.com/hashicorp/consul
+  version: 7696a9f8be6a9e03b2074b4c88eee5ed3c4f0599
+  subpackages:
+  - api
+  - watch
+- name: github.com/hashicorp/go-cleanhttp
+  version: 3573b8b52aa7b37b9358d966a898feb387f62437
+- name: github.com/hashicorp/go-rootcerts
+  version: 6bb64b370b90e7ef1fa532be9e591a81c3493e00
+- name: github.com/hashicorp/hcl
+  version: eb6f65b2d77ed5078887f960ff570fbddbbeb49d
+  subpackages:
+  - hcl/ast
+  - hcl/parser
+  - hcl/scanner
+  - hcl/strconv
+  - hcl/token
+  - json/parser
+  - json/scanner
+  - json/token
+- name: github.com/hashicorp/serf
+  version: 781adcfd703795082facaacaf76bbef9b03897d3
+  subpackages:
+  - coordinate
+- name: github.com/magiconair/properties
+  version: b3b15ef068fd0b17ddf408a23669f20811d194d2
+- name: github.com/micro/cli
+  version: 3d2263bb092286dde294a31049c92665f8373820
+- name: github.com/micro/go-log
+  version: cbfa9447f9b655f8e66583237e51f40ca9bff860
+- name: github.com/micro/go-micro
+  version: 32b7ebcfbc959497139c551747c07ee55783d978
+  subpackages:
+  - broker
+  - broker/codec
+  - broker/codec/json
+  - broker/http
+  - client
+  - cmd
+  - codec
+  - codec/jsonrpc
+  - codec/protorpc
+  - errors
+  - metadata
+  - registry
+  - registry/consul
+  - registry/mdns
+  - selector
+  - selector/cache
+  - server
+  - server/debug
+  - server/debug/proto
+  - transport
+  - transport/codec
+  - transport/http
+- name: github.com/micro/mdns
+  version: cdf30746f9f70dc7a366d3d885792a092fd83102
+- name: github.com/micro/misc
+  version: d090a0434084e482de5c73e8892b56d291881ec9
+  subpackages:
+  - lib/addr
+  - lib/net
+  - lib/tls
+- name: github.com/miekg/dns
+  version: ca336a1f95a6b89be9c250df26c7a41742eb4a6f
+- name: github.com/mitchellh/go-homedir
+  version: b8bc1bf767474819792c23f32d8286a45736f1c6
+- name: github.com/mitchellh/hashstructure
+  version: 2bca23e0e452137f789efbc8610126fd8b94f73b
+- name: github.com/mitchellh/mapstructure
+  version: ed105d635dfa9ea7133f7c79f1eb36203fc3a156
+- name: github.com/pborman/uuid
+  version: 1b00554d822231195d1babd97ff4a781231955c9
+- name: github.com/pelletier/go-buffruneio
+  version: df1e16fde7fc330a0ca68167c23bf7ed6ac31d6d
+- name: github.com/pelletier/go-toml
+  version: a1f048ba24490f9b0674a67e1ce995d685cddf4a
+- name: github.com/spf13/afero
+  version: 72b31426848c6ef12a7a8e216708cb0d1530f074
+  subpackages:
+  - mem
+- name: github.com/spf13/cast
+  version: 56a7ecbeb18dde53c6db4bd96b541fd9741b8d44
+- name: github.com/spf13/jwalterweatherman
+  version: fa7ca7e836cf3a8bb4ebf799f472c12d7e903d66
+- name: github.com/spf13/pflag
+  version: 51268031d79952516489a9f8aa34e9709b98d946
+- name: github.com/spf13/viper
+  version: 5ed0fc31f7f453625df314d8e66b9791e8d13003
+- name: golang.org/x/net
+  version: d4c55e66d8c3a2f3382d264b08e3e3454a66355a
+  repo: https://github.com/golang/net.git
+  subpackages:
+  - bpf
+  - context
+  - internal/iana
+  - ipv4
+  - ipv6
+- name: golang.org/x/sys
+  version: d75a52659825e75fff6158388dddc6a5b04f9ba5
+  repo: https://github.com/golang/sys.git
+  subpackages:
+  - unix
+- name: golang.org/x/text
+  version: 11dbc599981ccdf4fb18802a28392a8bcf7a9395
+  subpackages:
+  - transform
+  - unicode/norm
+- name: gopkg.in/yaml.v2
+  version: a5b47d31c556af34a302ce5d659e6fea44d90de0
+testImports: []

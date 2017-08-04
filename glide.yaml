@@ -1,0 +1,18 @@
+package: code.xxxxx.com/micro/common
+import:
+- package: github.com/golang/protobuf
+  repo: https://github.com/micro/protobuf.git
+  subpackages:
+  - proto
+- package: github.com/micro/cli
+- package: github.com/micro/go-micro
+- package: github.com/micro/go-log
+- package: golang.org/x/net
+  repo: https://github.com/golang/net.git
+  subpackages:
+  - context
+- package: golang.org/x/sys
+  repo: https://github.com/golang/sys.git
+  subpackages:
+  - unix
+- package: github.com/spf13/viper
